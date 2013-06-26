@@ -1,5 +1,3 @@
-require 'stringio'
-
 module Hexd
   BASE      = 16
   BYTE_SIZE = 8
