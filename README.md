@@ -6,8 +6,8 @@ a simple hex dump tool
 
 as an executable:
 
-hexd README.md
-cat README.md | hexd
+    hexd README.md
+    cat README.md | hexd
 
 as a library:
 
