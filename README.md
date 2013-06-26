@@ -2,6 +2,10 @@
 
 a simple hex dump tool
 
+## install
+
+    gem install hexd
+
 ## usage
 
 as an executable:
