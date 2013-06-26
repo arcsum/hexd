@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+$:.unshift File.join(__dir__, '..', 'lib')
+require 'hexd'
+
+Signal.trap('PIPE', 'EXIT')
+Hexd::Dump.new(ARGF).each { |line| puts line }
